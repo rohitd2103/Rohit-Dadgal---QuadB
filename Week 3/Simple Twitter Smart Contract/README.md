@@ -1,13 +1,17 @@
-# Sample Hardhat Project
+# Simple Twitter Smart Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This is a simple Solidity smart contract that works like Twitter, allowing users to post short tweets. Each tweet is stored on the blockchain with a unique ID, the user’s address.
 
-Try running some of the following tasks:
+## Features
+- Users can post tweets (max 280 characters).
+- Each tweet has a unique ID.
+- Tweets are stored with the user's Ethereum address and a timestamp.
+- Users can retrieve their tweets using their address.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+## How It Works
+- Post a Tweet: Users can call postTweet("Your tweet here") to store a tweet on the blockchain.
+- Retrieve a Tweet: Use getTweet(tweetId) to fetch a specific tweet by ID.
+- Get All Tweets by a User: Call getUserTweets(userAddress) to list all tweet IDs posted by a user.
+
+## Output
+![Simple Twitter Contract](Output.png)
