@@ -14,6 +14,6 @@ Repo/
 │   ├── SPL Token/
 │   └── Week 2_Day 2 - Hello Solana With Frontend and Wallet Integration/
 └── Week 3/
-    └── Twitter.sol
+    └── Simple Twitter Smart Contract/
 
 ```
