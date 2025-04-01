@@ -13,5 +13,8 @@ This is a simple Solidity smart contract that works like Twitter, allowing users
 - Retrieve a Tweet: Use getTweet(tweetId) to fetch a specific tweet by ID.
 - Get All Tweets by a User: Call getUserTweets(userAddress) to list all tweet IDs posted by a user.
 
+## Output
+![Simple Twitter Contract](Output.png)
+
 
   
